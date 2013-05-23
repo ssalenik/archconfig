@@ -1,0 +1,24 @@
+[apply]
+	whitespace = fix
+[user]
+	name = Stepan Salenikovich
+	email = stepan.salenikovich@gmail.com
+[color]
+	ui = auto
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+	ci = commit
+	co = checkout
+	st = status
+	lg = log --oneline --decorate
+[credential]
+	helper = cache --timeout=3600
+[push]
+	default = simple
+[github]
+	user = ssalenik
+[gist]
+	browse = yes
+	private = no
