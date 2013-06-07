@@ -1,0 +1,5 @@
+
+# change behaviour of up/down arrow to search only history which matches the current input
+
+"\e[A":history-search-backward
+"\e[B":history-search-forward
