@@ -6,4 +6,5 @@ setxkbmap -option ctrl:nocaps
 
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 
-exec dwm
+#exec dwm
+~/bin/startdwm
