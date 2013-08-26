@@ -18,3 +18,6 @@ eval $(keychain --eval --agents ssh -Q --quiet id_rsa)
 
 # ignore blank commands and duplicate history
 export HISTCONTROL=ignoreboth
+
+# strop ctrl-s from stopping flow control
+stty -ixon
